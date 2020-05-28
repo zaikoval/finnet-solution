@@ -8,4 +8,4 @@ You can find here some ideas on link prediction problem.
 3. Stacking & Blending [coming soon...]
 
 # Competition results
-![](https://i.ibb.co/5MW0bts/lb.jpg)
+<img src="https://i.ibb.co/5MW0bts/lb.jpg" width=100%>
