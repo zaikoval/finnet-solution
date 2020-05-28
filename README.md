@@ -1,11 +1,18 @@
-![](https://i.ibb.co/189jSFn/Finnet-logo147.jpg)
+![](img/logo.jpg)
 # [Finnet Challenge](https://job.tochka.com/challenge) 3rd place solution
 
-You can find here some ideas on link prediction problem. 
 
-1. [Recommended Systems approach](https://github.com/zaikoval/finnet-solution/blob/master/svd.ipynb)
-2. [Link Prediction approach](https://github.com/zaikoval/finnet-solution/blob/master/eda_node2vec.ipynb)
-3. Stacking & Blending [coming soon...]
+
+The task of the competition was to find removed transactions between firms. <br/>
+Our final solution is blending of several different approaches:
+
+1. [Recommended Systems approach](svd.ipynb)</br>
+  Matrix factorization. We have used several SVDs with 400, 450 and 475 components. 
+2. [Link Prediction approach](eda_node2vec.ipynb)</br>
+  Node2Vec embeddings were used as feature for logistic regression.
+3. [Stacking & Blending](Stacking&Blending.ipynb)</br>
+  Boostings with combinations of categorical features, node2vec embeddings and aggregation features.
+4. [Using a leak of data](https://pbs.twimg.com/media/EHfFpaPXkAAXEtf?format=jpg&name=large)
 
 # Competition results
-<img src="https://i.ibb.co/5MW0bts/lb.jpg" width=100%>
+<img src="img/lb.jpg" width=100%>
